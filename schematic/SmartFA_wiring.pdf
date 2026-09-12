@@ -7,7 +7,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 3 0 obj
-<< /Length 6019 >>
+<< /Length 6320 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
 BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (Smart FA \(GottFA_SLX9 module\) -- bus overview) Tj ET
@@ -78,9 +78,10 @@ BT /F1 7.0 Tf 0.75 0.15 0.10 rg 305.00 226.00 Td (the NOR bus) Tj ET
 BT /F2 8.5 Tf 0.00 0.00 0.00 rg 70.00 135.00 Td (What this module cannot do, and why \(reply to Ralf, 2026-09-07\)) Tj ET
 BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 120.00 Td (- P4.21..24 = the NOR SPI bus, at the GottFA80 positions. On WillFA7 those positions are the DIP strobes: incompatible.) Tj ET
 BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 107.00 Td (- SPI is not at the same place from one FA board to the next \(Ralf\): a NOR on the connector can never be universal.) Tj ET
-BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 94.00 Td (- P2.59, P2.64, P2.65: NOT CONNECTED on this module, and free on every FA board -> the designated place for the ESP<->FPGA serial link.) Tj ET
-BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 81.00 Td (- For an internal NOR: only 3 FPGA IOs reach no connector \(P33, P34, P47\) + CS P35. CLK+MOSI+MISO+CS fits, with no spare.) Tj ET
-BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 68.00 Td (- The ESP would then lose direct NOR access: U6 written through the FPGA \(a bridge\), as U5 is already programmed through the BSCAN bridge.) Tj ET
+BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 94.00 Td (- P2.59/64/65 \(bontango's numbering, read as P2 positions 3/8/9, to be confirmed\): free on every FA board -> the designated place for a universal ESP<->FPGA serial link.) Tj ET
+BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 81.00 Td (  On this module: P2.3 not connected; P2.8 and P2.9 carry spare FPGA I/Os \(U1.116, U1.117\) unused by the design -> a 2-wire link is possible on V1.0 by bitstream alone; the third position needs the next PCB.) Tj ET
+BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 68.00 Td (- For an internal NOR: only 3 FPGA IOs reach no connector \(P33, P34, P47\) + CS P35. CLK+MOSI+MISO+CS fits, with no spare.) Tj ET
+BT /F1 7.2 Tf 0.00 0.00 0.00 rg 70.00 55.00 Td (- The ESP would then lose direct NOR access: U6 written through the FPGA \(a bridge\), as U5 is already programmed through the BSCAN bridge.) Tj ET
 endstream
 endobj
 4 0 obj
@@ -240,7 +241,7 @@ endobj
 << /Length 8896 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
-BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (P2 -- U5/U6 port A-B   \(P2.59/64/65 do not exist on this 28-pin module: see page 1\)) Tj ET
+BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (P2 -- U5/U6 port A-B   \(P2.3 not connected; P2.8/9/13 = SPARE_IO_1/2/3: see page 1\)) Tj ET
 BT /F1 8.0 Tf 0.45 0.45 0.45 rg 30.00 546.00 Td (Every pin is wired to its FPGA pin; the other parts on the same net sit along the wire. Power in grey.) Tj ET
 BT /F1 6.5 Tf 0.45 0.45 0.45 rg 541.60 26.00 Td (Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore) Tj ET
 0.96 0.96 0.93 rg 60.00 54.79 34.00 477.21 re f
@@ -802,23 +803,23 @@ xref
 0000000015 00000 n 
 0000000085 00000 n 
 0000000160 00000 n 
-0000006231 00000 n 
-0000006368 00000 n 
-0000015636 00000 n 
-0000015773 00000 n 
-0000024721 00000 n 
-0000024858 00000 n 
-0000033761 00000 n 
-0000033899 00000 n 
-0000042464 00000 n 
-0000042603 00000 n 
-0000045942 00000 n 
-0000046081 00000 n 
-0000050401 00000 n 
-0000050540 00000 n 
-0000050638 00000 n 
+0000006532 00000 n 
+0000006669 00000 n 
+0000015937 00000 n 
+0000016074 00000 n 
+0000025022 00000 n 
+0000025159 00000 n 
+0000034062 00000 n 
+0000034200 00000 n 
+0000042765 00000 n 
+0000042904 00000 n 
+0000046243 00000 n 
+0000046382 00000 n 
+0000050702 00000 n 
+0000050841 00000 n 
+0000050939 00000 n 
 trailer
 << /Size 19 /Root 18 0 R >>
 startxref
-50689
+50990
 %%EOF

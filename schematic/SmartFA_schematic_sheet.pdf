@@ -9,7 +9,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 1190 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
 endobj
 4 0 obj
-<< /Length 83007 >>
+<< /Length 83048 >>
 stream
 0.97 0.97 0.94 rg 461.25 311.25 267.50 267.50 re f
 0.00 0.00 0.00 RG 1.20 w 461.25 311.25 267.50 267.50 re S
@@ -1282,9 +1282,9 @@ BT /F1 5.5 Tf 0.00 0.00 0.00 rg 1034.00 130.00 Td (internal net \(side block\), 
 0.40 0.40 0.40 RG 0.70 w 1000.00 120.00 m 1030.00 120.00 l S
 BT /F1 5.5 Tf 0.00 0.00 0.00 rg 1034.00 118.00 Td (power \(stub + name\)) Tj ET
 BT /F1 5.5 Tf 0.00 0.00 0.00 rg 1000.00 104.00 Td (pin number in red, pin function in grey) Tj ET
-BT /F1 5.5 Tf 0.00 0.00 0.00 rg 1000.00 92.00 Td (P2.59/64/65 do not exist on this 28-pin module) Tj ET
+BT /F1 5.5 Tf 0.00 0.00 0.00 rg 1000.00 92.00 Td (P2.3 not connected; P2.8/9/13 = SPARE_IO_1/2/3 \(U1.116/117/121\), unused by the design) Tj ET
 BT /F1 5.5 Tf 0.00 0.00 0.00 rg 1000.00 80.00 Td (FPGA IOs reaching no connector: P33, P34, P47) Tj ET
-BT /F1 5.0 Tf 0.40 0.40 0.40 rg 1000.00 68.00 Td (Generated from the KiCad netlist, 2026-09-07) Tj ET
+BT /F1 5.0 Tf 0.40 0.40 0.40 rg 1000.00 68.00 Td (Generated from the KiCad netlist, 2026-09-12) Tj ET
 0.00 0.00 0.00 RG 1.20 w 20.00 20.00 1150.00 802.00 re S
 BT /F2 12.0 Tf 0.00 0.00 0.00 rg 30.00 806.00 Td (Smart FA -- GottFA_SLX9 module \(Spartan-6 XC6SLX9\)  --  wiring schematic, single sheet) Tj ET
 BT /F1 6.5 Tf 0.40 0.40 0.40 rg 30.00 794.00 Td (Every connector pin is wired to its FPGA pin. One connector per side, as on the Cyclone 10 devboard whose pinout this module reproduces.) Tj ET
@@ -1304,10 +1304,10 @@ xref
 0000000058 00000 n 
 0000000115 00000 n 
 0000000252 00000 n 
-0000083312 00000 n 
-0000083382 00000 n 
+0000083353 00000 n 
+0000083423 00000 n 
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-83457
+83498
 %%EOF

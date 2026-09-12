@@ -4,7 +4,8 @@
 # un connecteur 2x14 par cote, et des NAPPES DE FILS tirees de chaque broche FPGA a sa
 # broche de connecteur. Genere depuis la netliste KiCad -> exact par construction.
 # PDF vectoriel ecrit a la main, aucune dependance.
-import json, re, sys
+import json, re, sys, datetime
+TODAY = datetime.date.today().isoformat()
 from collections import defaultdict
 J = json.load(open(sys.argv[1])); OUT = sys.argv[2]
 nets, comps = J['nets'], J['comps']
@@ -228,12 +229,12 @@ pdf.line(1000, 144, 1030, 144, lw=1.0, rgb=ROUGE); pdf.text(1034, 142, "shared S
 pdf.line(1000, 132, 1030, 132, lw=1.0, rgb=BLEU); pdf.text(1034, 130, "internal net (side block), same name", 5.5)
 pdf.line(1000, 120, 1030, 120, lw=0.7, rgb=GRIS); pdf.text(1034, 118, "power (stub + name)", 5.5)
 pdf.text(1000, 104, "pin number in red, pin function in grey", 5.5)
-pdf.text(1000, 92, "P2.59/64/65 do not exist on this 28-pin module", 5.5)
+pdf.text(1000, 92, "P2.3 not connected; P2.8/9/13 = SPARE_IO_1/2/3 (U1.116/117/121), unused by the design", 5.5)
 pdf.text(1000, 80, "FPGA IOs reaching no connector: P33, P34, P47", 5.5)
-pdf.text(1000, 68, "Generated from the KiCad netlist, 2026-09-07", 5, rgb=GRIS)
+pdf.text(1000, 68, "Generated from the KiCad netlist, " + TODAY, 5, rgb=GRIS)
 # cartouche
 pdf.rect(20, 20, 1150, 802, lw=1.2)
 pdf.text(30, 806, "Smart FA -- GottFA_SLX9 module (Spartan-6 XC6SLX9)  --  wiring schematic, single sheet", 12, bold=True)
 pdf.text(30, 794, "Every connector pin is wired to its FPGA pin. One connector per side, as on the Cyclone 10 devboard whose pinout this module reproduces.", 6.5, rgb=GRIS)
-pdf.text(1160, 26, "Pstore -- Valere Pillet -- generated 2026-09-12 from GottFA_SLX9_Module.kicad_sch", 5.5, rgb=GRIS, align='r')
+pdf.text(1160, 26, "Pstore -- Valere Pillet -- generated " + TODAY + " from GottFA_SLX9_Module.kicad_sch", 5.5, rgb=GRIS, align='r')
 pdf.save(OUT); print("PDF :", OUT)

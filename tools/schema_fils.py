@@ -4,7 +4,8 @@
 # du net sur le fil et les autres composants du net (NOR, ESP, cavalier...) sur le
 # trajet. Exact par construction : meme netliste que KiCad. PDF vectoriel ecrit a la
 # main (aucune dependance).
-import json, re, sys
+import json, re, sys, datetime
+TODAY = datetime.date.today().isoformat()
 
 J = json.load(open(sys.argv[1]))
 OUT = sys.argv[2]
@@ -73,7 +74,7 @@ def cartouche(titre, sous):
     pdf.rect(20, 20, 802, 555, lw=1.0)
     pdf.text(30, 560, titre, 13, bold=True)
     pdf.text(30, 546, sous, 8, rgb=GRIS)
-    pdf.text(812, 26, "Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore", 6.5, rgb=GRIS, align='r')
+    pdf.text(812, 26, "Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, " + TODAY + " -- Pstore", 6.5, rgb=GRIS, align='r')
 
 # ---------------------------------------------------------------- page 1 : vue d ensemble
 pdf.page()
@@ -113,7 +114,8 @@ pdf.text(70, 135, "What this module cannot do, and why (reply to Ralf, 2026-09-0
 for i, l in enumerate([
     "- P4.21..24 = the NOR SPI bus, at the GottFA80 positions. On WillFA7 those positions are the DIP strobes: incompatible.",
     "- SPI is not at the same place from one FA board to the next (Ralf): a NOR on the connector can never be universal.",
-    "- P2.59, P2.64, P2.65: NOT CONNECTED on this module, and free on every FA board -> the designated place for the ESP<->FPGA serial link.",
+    "- P2.59/64/65 (bontango's numbering, read as P2 positions 3/8/9, to be confirmed): free on every FA board -> the designated place for a universal ESP<->FPGA serial link.",
+    "  On this module: P2.3 not connected; P2.8 and P2.9 carry spare FPGA I/Os (U1.116, U1.117) unused by the design -> a 2-wire link is possible on V1.0 by bitstream alone; the third position needs the next PCB.",
     "- For an internal NOR: only 3 FPGA IOs reach no connector (P33, P34, P47) + CS P35. CLK+MOSI+MISO+CS fits, with no spare.",
     "- The ESP would then lose direct NOR access: U6 written through the FPGA (a bridge), as U5 is already programmed through the BSCAN bridge."]):
     pdf.text(70, 120 - 13 * i, l, 7.2)
@@ -155,7 +157,7 @@ def page_connecteur(ref, titre):
             pdf.text(XF + 30, y - 2.5 - 7 * k, fn_short(x), 6, rgb=GRIS)
 
 page_connecteur('P1', 'display')
-page_connecteur('P2', 'U5/U6 port A-B' + "   (P2.59/64/65 do not exist on this 28-pin module: see page 1)")
+page_connecteur('P2', 'U5/U6 port A-B' + "   (P2.3 not connected; P2.8/9/13 = SPARE_IO_1/2/3: see page 1)")
 page_connecteur('P3', 'U4/U6 port A-B')
 page_connecteur('P4', 'LED / sound / SPI')
 page_connecteur('P5', 'JTAG')

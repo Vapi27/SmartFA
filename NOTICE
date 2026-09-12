@@ -1,0 +1,14 @@
+Smart FA — GottFA_SLX16 module, hardware documentation
+Copyright (C) 2026 Valère Pillet / Pstore (pinballs.store)
+
+The schematic PDFs, pin tables and documents in this repository are published so
+that the authors of FA pinball boards and the owners of a module can check
+compatibility, wire the module, and repair it. You may copy and redistribute
+them unchanged, with this notice.
+
+The generator scripts in tools/ are released under the GNU GPL v3 or later.
+
+The FPGA design the module runs derives from bontango's GottFA80 / GottFA80_PLuS
+(GPL v3+, https://www.lisy.dev) and is published, with its own NOTICE, at
+https://github.com/Vapi27/GottFA80_PLuS. Gottlieb game ROM images are not part
+of any of these repositories.

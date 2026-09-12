@@ -1,6 +1,6 @@
 # Carrier connectors P1–P4, pin by pin
 
-Generated from the KiCad netlist of `GottFA_SLX16_Module.kicad_sch` (see `tools/`), so it is exact by construction. `U1.n` = Spartan-6 pin (with its ISE name), `ESP GPIOn` = the real ESP32-S3 GPIO (never the module pad number). Power nets list no members.
+Generated from the KiCad netlist of `GottFA_SLX9_Module.kicad_sch` (see `tools/`), so it is exact by construction. `U1.n` = Spartan-6 pin (with its ISE name), `ESP GPIOn` = the real ESP32-S3 GPIO (never the module pad number). Power nets list no members.
 
 Four 2×14 headers, 2.54 mm, the geometry of bontango's 10CL006 devboard.
 

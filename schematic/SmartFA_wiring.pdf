@@ -7,12 +7,12 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 3 0 obj
-<< /Length 6021 >>
+<< /Length 6019 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
-BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (Smart FA \(GottFA_SLX16 module\) -- bus overview) Tj ET
+BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (Smart FA \(GottFA_SLX9 module\) -- bus overview) Tj ET
 BT /F1 8.0 Tf 0.45 0.45 0.45 rg 30.00 546.00 Td (What each link carries. The following pages wire every connector pin to its FPGA pin.) Tj ET
-BT /F1 6.5 Tf 0.45 0.45 0.45 rg 538.22 26.00 Td (Smart FA / GottFA_SLX16 -- generated from the KiCad netlist, 2026-09-07 -- Pstore) Tj ET
+BT /F1 6.5 Tf 0.45 0.45 0.45 rg 541.60 26.00 Td (Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore) Tj ET
 0.96 0.96 0.93 rg 330.00 250.00 190.00 250.00 re f
 0.00 0.00 0.00 RG 1.00 w 330.00 250.00 190.00 250.00 re S
 BT /F2 9.0 Tf 0.00 0.00 0.00 rg 368.84 486.00 Td (U1  FPGA XC6SLX9-2TQG144) Tj ET
@@ -87,12 +87,12 @@ endobj
 << /Type /Page /Parent 17 0 R /MediaBox [0 0 842 595] /Contents 3 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> >>
 endobj
 5 0 obj
-<< /Length 9217 >>
+<< /Length 9216 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
 BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (P1 -- display) Tj ET
 BT /F1 8.0 Tf 0.45 0.45 0.45 rg 30.00 546.00 Td (Every pin is wired to its FPGA pin; the other parts on the same net sit along the wire. Power in grey.) Tj ET
-BT /F1 6.5 Tf 0.45 0.45 0.45 rg 538.22 26.00 Td (Smart FA / GottFA_SLX16 -- generated from the KiCad netlist, 2026-09-07 -- Pstore) Tj ET
+BT /F1 6.5 Tf 0.45 0.45 0.45 rg 541.60 26.00 Td (Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore) Tj ET
 0.96 0.96 0.93 rg 60.00 54.79 34.00 477.21 re f
 0.00 0.00 0.00 RG 1.00 w 60.00 54.79 34.00 477.21 re S
 BT /F2 9.0 Tf 0.00 0.00 0.00 rg 72.32 538.00 Td (P1) Tj ET
@@ -237,12 +237,12 @@ endobj
 << /Type /Page /Parent 17 0 R /MediaBox [0 0 842 595] /Contents 5 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> >>
 endobj
 7 0 obj
-<< /Length 8897 >>
+<< /Length 8896 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
 BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (P2 -- U5/U6 port A-B   \(P2.59/64/65 do not exist on this 28-pin module: see page 1\)) Tj ET
 BT /F1 8.0 Tf 0.45 0.45 0.45 rg 30.00 546.00 Td (Every pin is wired to its FPGA pin; the other parts on the same net sit along the wire. Power in grey.) Tj ET
-BT /F1 6.5 Tf 0.45 0.45 0.45 rg 538.22 26.00 Td (Smart FA / GottFA_SLX16 -- generated from the KiCad netlist, 2026-09-07 -- Pstore) Tj ET
+BT /F1 6.5 Tf 0.45 0.45 0.45 rg 541.60 26.00 Td (Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore) Tj ET
 0.96 0.96 0.93 rg 60.00 54.79 34.00 477.21 re f
 0.00 0.00 0.00 RG 1.00 w 60.00 54.79 34.00 477.21 re S
 BT /F2 9.0 Tf 0.00 0.00 0.00 rg 72.32 538.00 Td (P2) Tj ET
@@ -383,12 +383,12 @@ endobj
 << /Type /Page /Parent 17 0 R /MediaBox [0 0 842 595] /Contents 7 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> >>
 endobj
 9 0 obj
-<< /Length 8852 >>
+<< /Length 8851 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
 BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (P3 -- U4/U6 port A-B) Tj ET
 BT /F1 8.0 Tf 0.45 0.45 0.45 rg 30.00 546.00 Td (Every pin is wired to its FPGA pin; the other parts on the same net sit along the wire. Power in grey.) Tj ET
-BT /F1 6.5 Tf 0.45 0.45 0.45 rg 538.22 26.00 Td (Smart FA / GottFA_SLX16 -- generated from the KiCad netlist, 2026-09-07 -- Pstore) Tj ET
+BT /F1 6.5 Tf 0.45 0.45 0.45 rg 541.60 26.00 Td (Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore) Tj ET
 0.96 0.96 0.93 rg 60.00 54.79 34.00 477.21 re f
 0.00 0.00 0.00 RG 1.00 w 60.00 54.79 34.00 477.21 re S
 BT /F2 9.0 Tf 0.00 0.00 0.00 rg 72.32 538.00 Td (P3) Tj ET
@@ -531,12 +531,12 @@ endobj
 << /Type /Page /Parent 17 0 R /MediaBox [0 0 842 595] /Contents 9 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> >>
 endobj
 11 0 obj
-<< /Length 8513 >>
+<< /Length 8512 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
 BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (P4 -- LED / sound / SPI) Tj ET
 BT /F1 8.0 Tf 0.45 0.45 0.45 rg 30.00 546.00 Td (Every pin is wired to its FPGA pin; the other parts on the same net sit along the wire. Power in grey.) Tj ET
-BT /F1 6.5 Tf 0.45 0.45 0.45 rg 538.22 26.00 Td (Smart FA / GottFA_SLX16 -- generated from the KiCad netlist, 2026-09-07 -- Pstore) Tj ET
+BT /F1 6.5 Tf 0.45 0.45 0.45 rg 541.60 26.00 Td (Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore) Tj ET
 0.96 0.96 0.93 rg 60.00 54.79 34.00 477.21 re f
 0.00 0.00 0.00 RG 1.00 w 60.00 54.79 34.00 477.21 re S
 BT /F2 9.0 Tf 0.00 0.00 0.00 rg 72.32 538.00 Td (P4) Tj ET
@@ -672,12 +672,12 @@ endobj
 << /Type /Page /Parent 17 0 R /MediaBox [0 0 842 595] /Contents 11 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> >>
 endobj
 13 0 obj
-<< /Length 3287 >>
+<< /Length 3286 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
 BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (P5 -- JTAG) Tj ET
 BT /F1 8.0 Tf 0.45 0.45 0.45 rg 30.00 546.00 Td (Every pin is wired to its FPGA pin; the other parts on the same net sit along the wire. Power in grey.) Tj ET
-BT /F1 6.5 Tf 0.45 0.45 0.45 rg 538.22 26.00 Td (Smart FA / GottFA_SLX16 -- generated from the KiCad netlist, 2026-09-07 -- Pstore) Tj ET
+BT /F1 6.5 Tf 0.45 0.45 0.45 rg 541.60 26.00 Td (Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore) Tj ET
 0.96 0.96 0.93 rg 60.00 355.00 34.00 177.00 re f
 0.00 0.00 0.00 RG 1.00 w 60.00 355.00 34.00 177.00 re S
 BT /F2 9.0 Tf 0.00 0.00 0.00 rg 72.32 538.00 Td (P5) Tj ET
@@ -732,12 +732,12 @@ endobj
 << /Type /Page /Parent 17 0 R /MediaBox [0 0 842 595] /Contents 13 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> >>
 endobj
 15 0 obj
-<< /Length 4268 >>
+<< /Length 4267 >>
 stream
 0.00 0.00 0.00 RG 1.00 w 20.00 20.00 802.00 555.00 re S
 BT /F2 13.0 Tf 0.00 0.00 0.00 rg 30.00 560.00 Td (Internal links \(no connector\) -- config U5, NOR U6, ESP link, jumper JP1) Tj ET
 BT /F1 8.0 Tf 0.45 0.45 0.45 rg 30.00 546.00 Td (The nets that never leave the module. This is where compatibility with the other FA boards is decided.) Tj ET
-BT /F1 6.5 Tf 0.45 0.45 0.45 rg 538.22 26.00 Td (Smart FA / GottFA_SLX16 -- generated from the KiCad netlist, 2026-09-07 -- Pstore) Tj ET
+BT /F1 6.5 Tf 0.45 0.45 0.45 rg 541.60 26.00 Td (Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore) Tj ET
 BT /F2 9.0 Tf 0.00 0.00 0.00 rg 40.00 500.00 Td (Config flash U5 <-> FPGA \(configuration pins, not exposed\)) Tj ET
 BT /F2 7.5 Tf 0.00 0.00 0.00 rg 60.00 484.00 Td (U1.P38 L65N_CSO_B_2_38) Tj ET
 0.10 0.30 0.65 RG 1.00 w 180.00 486.00 m 460.00 486.00 l S
@@ -802,23 +802,23 @@ xref
 0000000015 00000 n 
 0000000085 00000 n 
 0000000160 00000 n 
-0000006233 00000 n 
-0000006370 00000 n 
-0000015639 00000 n 
-0000015776 00000 n 
-0000024725 00000 n 
-0000024862 00000 n 
-0000033766 00000 n 
-0000033904 00000 n 
-0000042470 00000 n 
-0000042609 00000 n 
-0000045949 00000 n 
-0000046088 00000 n 
-0000050409 00000 n 
-0000050548 00000 n 
-0000050646 00000 n 
+0000006231 00000 n 
+0000006368 00000 n 
+0000015636 00000 n 
+0000015773 00000 n 
+0000024721 00000 n 
+0000024858 00000 n 
+0000033761 00000 n 
+0000033899 00000 n 
+0000042464 00000 n 
+0000042603 00000 n 
+0000045942 00000 n 
+0000046081 00000 n 
+0000050401 00000 n 
+0000050540 00000 n 
+0000050638 00000 n 
 trailer
 << /Size 19 /Root 18 0 R >>
 startxref
-50697
+50689
 %%EOF

@@ -1,4 +1,4 @@
-# tools/ — GottFA_SLX16 module (Smart FA)
+# tools/ — GottFA_SLX9 module (Smart FA)
 
 The KiCad schematic of this module is **label-only**: a net label on every pin, no drawn
 wire. Fine for KiCad, unreadable for anyone who has to follow a connection from sheet to
@@ -25,7 +25,7 @@ pin to its FPGA pin and the other parts of the net along the wire, then the inte
 
 ```bash
 K=/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
-$K sch export netlist --format kicadxml -o /tmp/smartfa.xml GottFA_SLX16_Module.kicad_sch
+$K sch export netlist --format kicadxml -o /tmp/smartfa.xml GottFA_SLX9_Module.kicad_sch
 python3 - <<'PY'   # XML netlist -> the JSON both scripts expect
 import xml.etree.ElementTree as ET, json
 r=ET.parse('/tmp/smartfa.xml').getroot()

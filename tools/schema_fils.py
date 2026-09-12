@@ -73,11 +73,11 @@ def cartouche(titre, sous):
     pdf.rect(20, 20, 802, 555, lw=1.0)
     pdf.text(30, 560, titre, 13, bold=True)
     pdf.text(30, 546, sous, 8, rgb=GRIS)
-    pdf.text(812, 26, "Smart FA / GottFA_SLX16 -- generated from the KiCad netlist, 2026-09-07 -- Pstore", 6.5, rgb=GRIS, align='r')
+    pdf.text(812, 26, "Smart FA / GottFA_SLX9 -- generated from the KiCad netlist, 2026-09-12 -- Pstore", 6.5, rgb=GRIS, align='r')
 
 # ---------------------------------------------------------------- page 1 : vue d ensemble
 pdf.page()
-cartouche("Smart FA (GottFA_SLX16 module) -- bus overview",
+cartouche("Smart FA (GottFA_SLX9 module) -- bus overview",
           "What each link carries. The following pages wire every connector pin to its FPGA pin.")
 def boite(x, y, w, h, titre, lignes=(), fill=FOND):
     pdf.rect(x, y, w, h, lw=1.0, fill=fill)

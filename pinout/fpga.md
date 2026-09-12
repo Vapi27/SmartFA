@@ -1,6 +1,6 @@
 # Spartan-6 XC6SLX9-2TQG144 (U1), all 144 pins
 
-Generated from the KiCad netlist of `GottFA_SLX16_Module.kicad_sch` (see `tools/`), so it is exact by construction. `U1.n` = Spartan-6 pin (with its ISE name), `ESP GPIOn` = the real ESP32-S3 GPIO (never the module pad number). Power nets list no members.
+Generated from the KiCad netlist of `GottFA_SLX9_Module.kicad_sch` (see `tools/`), so it is exact by construction. `U1.n` = Spartan-6 pin (with its ISE name), `ESP GPIOn` = the real ESP32-S3 GPIO (never the module pad number). Power nets list no members.
 
 The constraint file that actually builds the bitstream is [`GottFA80_SLX9.ucf`](https://github.com/Vapi27/GottFA80_PLuS/blob/spartan6-feasibility/GottFA80_SLX9.ucf) in the FPGA repository; this table is the schematic side.
 

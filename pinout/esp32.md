@@ -1,6 +1,6 @@
 # ESP32-S3-WROOM-1-N8R8 (U7), every connected pad
 
-Generated from the KiCad netlist of `GottFA_SLX16_Module.kicad_sch` (see `tools/`), so it is exact by construction. `U1.n` = Spartan-6 pin (with its ISE name), `ESP GPIOn` = the real ESP32-S3 GPIO (never the module pad number). Power nets list no members.
+Generated from the KiCad netlist of `GottFA_SLX9_Module.kicad_sch` (see `tools/`), so it is exact by construction. `U1.n` = Spartan-6 pin (with its ISE name), `ESP GPIOn` = the real ESP32-S3 GPIO (never the module pad number). Power nets list no members.
 
 | pad | GPIO | net | also on |
 |---|---|---|---|

@@ -1,6 +1,6 @@
 # Internal parts: config flash U5, game NOR U6, JP1, JTAG P5, power P6, USB J1, OLED P7
 
-Generated from the KiCad netlist of `GottFA_SLX16_Module.kicad_sch` (see `tools/`), so it is exact by construction. `U1.n` = Spartan-6 pin (with its ISE name), `ESP GPIOn` = the real ESP32-S3 GPIO (never the module pad number). Power nets list no members.
+Generated from the KiCad netlist of `GottFA_SLX9_Module.kicad_sch` (see `tools/`), so it is exact by construction. `U1.n` = Spartan-6 pin (with its ISE name), `ESP GPIOn` = the real ESP32-S3 GPIO (never the module pad number). Power nets list no members.
 
 ## U5 — W25Q32JVSNIQ - flash de config
 

@@ -1,4 +1,4 @@
-# Smart FA — the GottFA_SLX16 module
+# Smart FA — the GottFA_SLX9 module
 
 A drop-in FPGA module for bontango's **FA pinball boards** — the four 2×14 headers of the
 10CL006 devboard — built around a **Xilinx Spartan-6 XC6SLX9** and an **ESP32-S3**, with
@@ -46,7 +46,7 @@ the netlist, the ESP↔FPGA link, and what the next revision changes. The code l
 |---|---|
 | [`schematic/SmartFA_schematic_sheet.pdf`](schematic/SmartFA_schematic_sheet.pdf) | **one A3 sheet**, drawn in the style of the 10CL006 devboard schematic: the FPGA in the centre with function and number on all 144 pins, one connector per side, wires fanned to every pin, side blocks for the ESP (real GPIOs), the flashes, JP1, JTAG, P6 and the crystal |
 | [`schematic/SmartFA_wiring.pdf`](schematic/SmartFA_wiring.pdf) | **7 pages**: bus overview with the FA-board compatibility points, then one connector per page with one wire per pin and the other parts on the net, then the internal links |
-| [`schematic/GottFA_SLX16_Module_schematic.pdf`](schematic/GottFA_SLX16_Module_schematic.pdf) | the KiCad schematic itself (six label-based sheets), exported with `kicad-cli` |
+| [`schematic/GottFA_SLX9_Module_schematic.pdf`](schematic/GottFA_SLX9_Module_schematic.pdf) | the KiCad schematic itself (six label-based sheets), exported with `kicad-cli` |
 
 The first two are **generated from the netlist** by the scripts in [`tools/`](tools/README.md),
 so they are exact by construction — the same source KiCad uses.
@@ -97,7 +97,7 @@ covers bontango's proposal for a universal ESP↔FPGA link on three connector po
 ## Regenerating the PDFs and tables
 
 [`tools/README.md`](tools/README.md). `tools/smartfa_nets.json` is the netlist the generators
-consume, exported from the KiCad schematic on 2026-09-12 (153 nets, 512 nodes).
+consume, exported from the KiCad schematic on 2026-09-12 (project renamed `GottFA_SLX9_Module` the same day: the module is named after the XC6SLX9 it carries, not the XC6SLX16 of the first plan) (153 nets, 512 nodes).
 
 ## Licence
 
